@@ -1,4 +1,4 @@
-package com.company.part02.chapter03greedy.q3NumberCardGame;
+package com.company.part02.chapter03greedy.q3numbercardgame;
 
 public class Solution {
 
