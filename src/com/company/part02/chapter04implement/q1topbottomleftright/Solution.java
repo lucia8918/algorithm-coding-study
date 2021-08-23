@@ -15,10 +15,6 @@ public class Solution {
    */
   public String solution(int N, String[] commands) {
 
-    String result = "";
-
-    int[][] maps = new int[N][N];
-
     // 우선 0, 0 부터 시작한다고 가정, 추후에 1,1 시작한다고 가정하여 변환 처리
     int currentPosX = 0;
     int currentPosY = 0;
