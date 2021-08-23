@@ -1,4 +1,4 @@
-package com.company.part02.chapter03greedy.q2bignumber;
+package com.company.part02.chapter03greedy.q3NumberCardGame;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -9,7 +9,7 @@ import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.api.TestInstance.Lifecycle;
 
 @TestInstance(Lifecycle.PER_CLASS)
-@DisplayName("그리디 - 문제2번 : 큰수의 법칙")
+@DisplayName("그리디 - 문제3번 : 숫자 카드 게임 테스트")
 class SolutionTest {
 
   Solution main;
@@ -23,27 +23,29 @@ class SolutionTest {
   void 예시1_테스트() {
 
     // Given
-    int condition[] = {5, 8, 3};
-    int items[] = {2, 4, 5, 4, 6};
+    int N = 3;
+    int M = 3;
+    int[][] cards = {{3, 1, 2}, {4, 1, 4}, {2, 2, 2}};
 
     // When
-    int result = main.solution(condition, items);
+    int result = main.solution(N, M, cards);
 
-    assertEquals(46, result);
+    // Then
+    assertEquals(2, result);
   }
 
   @Test
   void 예시2_테스트() {
 
     // Given
-    int condition[] = {5, 7, 2};
-    int items[] = {3, 4, 3, 4, 3};
-
-    Solution solution = new Solution();
+    int N = 2;
+    int M = 4;
+    int[][] cards = {{7, 3, 1, 8}, {3, 3, 3, 4}};
 
     // When
-    int result = main.solution(condition, items);
+    int result = main.solution(N, M, cards);
 
-    assertEquals(28, result);
+    // Then
+    assertEquals(3, result);
   }
 }
