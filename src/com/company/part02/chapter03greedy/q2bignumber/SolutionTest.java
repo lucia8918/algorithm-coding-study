@@ -23,11 +23,13 @@ class SolutionTest {
   void 예시1_테스트() {
 
     // Given
-    int condition[] = {5, 8, 3};
+    int N = 5;
+    int M = 8;
+    int K = 3;
     int items[] = {2, 4, 5, 4, 6};
 
     // When
-    int result = main.solution(condition, items);
+    int result = main.solution(N, M, K, items);
 
     assertEquals(46, result);
   }
@@ -37,12 +39,14 @@ class SolutionTest {
 
     // Given
     int condition[] = {5, 7, 2};
+    int N = 5;
+    int M = 7;
+    int K = 2;
+
     int items[] = {3, 4, 3, 4, 3};
 
-    Solution solution = new Solution();
-
     // When
-    int result = main.solution(condition, items);
+    int result = main.solution(N, M, K, items);
 
     assertEquals(28, result);
   }
