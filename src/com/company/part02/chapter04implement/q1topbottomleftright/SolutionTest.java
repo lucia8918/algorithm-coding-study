@@ -9,7 +9,7 @@ import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.api.TestInstance.Lifecycle;
 
 @TestInstance(Lifecycle.PER_CLASS)
-@DisplayName("구형 - 문제1번 : 상하좌우")
+@DisplayName("구현 - 문제1번 : 상하좌우")
 class SolutionTest {
 
   Solution main;

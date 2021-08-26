@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-@DisplayName("구형 - 문제2번 : 시각")
+@DisplayName("구현 - 문제2번 : 시각")
 class SolutionTest {
 
   @Test
