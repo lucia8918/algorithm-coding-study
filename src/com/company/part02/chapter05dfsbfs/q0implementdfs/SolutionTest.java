@@ -1,4 +1,4 @@
-package com.company.part02.chapter05dfsbfs.q0dfs;
+package com.company.part02.chapter05dfsbfs.q0implementdfs;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

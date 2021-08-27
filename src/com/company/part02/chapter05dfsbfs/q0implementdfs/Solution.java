@@ -1,6 +1,6 @@
-package com.company.part02.chapter05dfsbfs.q0dfs;
+package com.company.part02.chapter05dfsbfs.q0implementdfs;
 
-import com.company.part02.chapter05dfsbfs.q0dfs.Graph.Node;
+import com.company.part02.chapter05dfsbfs.q0implementdfs.Graph.Node;
 import java.util.Stack;
 
 public class Solution {
