@@ -1,4 +1,4 @@
-package com.company.part02.chapter05dfsbfs.q0implementdfs;
+package com.company.part02.chapter05dfsbfs.q0implementdfsbfs;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -34,5 +34,11 @@ class SolutionTest {
   void dfs_리컬시브구현_테스트() {
 
     main.dfsR(graph.nodes[1]);
+  }
+
+  @Test
+  void bfs_테스트() {
+
+    main.bfs(1);
   }
 }

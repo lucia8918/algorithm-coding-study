@@ -1,4 +1,4 @@
-package com.company.part02.chapter05dfsbfs.q0implementdfs;
+package com.company.part02.chapter05dfsbfs.q0implementdfsbfs;
 
 import java.util.ArrayList;
 import java.util.List;
