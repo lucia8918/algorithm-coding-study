@@ -32,7 +32,19 @@ class SolutionTest {
     int N = 6;
 
     // When
-    int result = main.fiboRWithMemo(N);
+    int result = main.fiboRWithTopDownMemo(N);
+
+    // Then
+    assertEquals(8, result);
+  }
+
+  @Test
+  void 피보나치_버텀업_테스트() {
+    // Given
+    int N = 6;
+
+    // When
+    int result = main.fiboWithBottomUp(N);
 
     // Then
     assertEquals(8, result);
