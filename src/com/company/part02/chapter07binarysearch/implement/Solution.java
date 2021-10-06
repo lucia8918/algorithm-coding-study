@@ -2,7 +2,7 @@ package com.company.part02.chapter07binarysearch.implement;
 
 public class Solution {
 
-  public static int binarySearchR(int[] list, int target, int start, int end) {
+  protected static int binarySearchR(int[] list, int target, int start, int end) {
 
     if (start > end) return -1;
 
