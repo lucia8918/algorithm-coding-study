@@ -1,4 +1,4 @@
-package com.company.part02.chapter07binarysearch.implement.q2partsearch;
+package com.company.part02.chapter07binarysearch.q2partsearch;
 
 import static com.company.part02.chapter07binarysearch.implement.Solution.binarySearch;
 
