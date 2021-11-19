@@ -1,9 +1,6 @@
 
 I
 src/com/company/Main.java,4/a/4a831b10439099d44774d0ccc387e808deffaeab
-:
-
-.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 p
 @src/com/company/part02/chapter05dfsbfs/q0factorial/Solution.java,d/e/deb22c362a179ba07483e68aa82a8b32a18f3b19
 t
@@ -26,8 +23,6 @@ Fsrc/com/company/part02/chapter05dfsbfs/q0implementdfsbfs/Solution.java,a/7/a7e
 Osrc/com/company/part02/chapter06sort/selectionsort/implement/InsertionSort.java,1/8/187b23c149b197fecea85663f57eeb1a244907c9
 k
 ;src/com/company/part02/chapter03greedy/q1coin/Solution.java,7/3/739c963b3ad6c823d48015fc1685e4283bce67e6
-o
-?src/com/company/part02/chapter03greedy/q1coin/SolutionTest.java,c/0/c0960f9f4215adc17919757f839e2db5c80a6e5d
 u
 Esrc/com/company/part02/chapter03greedy/q3numbercardgame/Solution.java,5/6/56f83b7f08c5f570396a02d366bf0c260ea51775
 |
