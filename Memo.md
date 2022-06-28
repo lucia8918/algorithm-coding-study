@@ -17,3 +17,11 @@
 
 ### 숫자 자리수 구하기
 - int digitLength = (int) (Math.log10(list.size()) + 1);
+
+### 숫자 자리수 순회
+- ArrayList<Integer> arrNum = new ArrayList<>();
+  while(num > 0) {
+    arrNum.add(num %10);
+    num /= 10;
+  }
+  
